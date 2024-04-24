@@ -1,0 +1,2582 @@
+on_predict_postprocess_end
+frame_id: 1
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.80681086
+video 1/1 (1/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 100.9ms
+on_predict_postprocess_end
+frame_id: 2
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8061855
+video 1/1 (2/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 3
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.80307084
+video 1/1 (3/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.4ms
+on_predict_postprocess_end
+frame_id: 4
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8016092
+video 1/1 (4/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 5
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7933171
+video 1/1 (5/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.2ms
+on_predict_postprocess_end
+frame_id: 6
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.79883766
+video 1/1 (6/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 7
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.79822
+video 1/1 (7/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.5ms
+on_predict_postprocess_end
+frame_id: 8
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7954208
+video 1/1 (8/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.1ms
+on_predict_postprocess_end
+frame_id: 9
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7937107
+video 1/1 (9/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 10
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7946073
+video 1/1 (10/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.4ms
+on_predict_postprocess_end
+frame_id: 11
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7932741
+video 1/1 (11/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 12
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.79600805
+video 1/1 (12/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 13
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7861044
+video 1/1 (13/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 14
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7886496
+video 1/1 (14/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.1ms
+on_predict_postprocess_end
+frame_id: 15
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.78899944
+video 1/1 (15/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 16
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.78809303
+video 1/1 (16/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.3ms
+on_predict_postprocess_end
+frame_id: 17
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7886503
+video 1/1 (17/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 18
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7873164
+video 1/1 (18/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 19
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.78818065
+video 1/1 (19/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 20
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.78538835
+video 1/1 (20/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 21
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.78153765
+video 1/1 (21/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 22
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.783315
+video 1/1 (22/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.4ms
+on_predict_postprocess_end
+frame_id: 23
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.78747284
+video 1/1 (23/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 24
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7856262
+video 1/1 (24/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.0ms
+on_predict_postprocess_end
+frame_id: 25
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7908862
+video 1/1 (25/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.5ms
+on_predict_postprocess_end
+frame_id: 26
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7931011
+video 1/1 (26/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 27
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7929015
+video 1/1 (27/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.1ms
+on_predict_postprocess_end
+frame_id: 28
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7920718
+video 1/1 (28/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 12.3ms
+on_predict_postprocess_end
+frame_id: 29
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.79183507
+video 1/1 (29/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.2ms
+on_predict_postprocess_end
+frame_id: 30
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.79200304
+video 1/1 (30/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.2ms
+on_predict_postprocess_end
+frame_id: 31
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7921691
+video 1/1 (31/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.1ms
+on_predict_postprocess_end
+frame_id: 32
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7939827
+video 1/1 (32/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 33
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7976751
+video 1/1 (33/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 13.1ms
+on_predict_postprocess_end
+frame_id: 34
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8001753
+video 1/1 (34/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 35
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8026648
+video 1/1 (35/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 36
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.805091
+video 1/1 (36/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.0ms
+on_predict_postprocess_end
+frame_id: 37
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8040837
+video 1/1 (37/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 38
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8040708
+video 1/1 (38/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.5ms
+on_predict_postprocess_end
+frame_id: 39
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.80604804
+video 1/1 (39/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 40
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.807536
+video 1/1 (40/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 41
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.81274164
+video 1/1 (41/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 42
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.810876
+video 1/1 (42/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 43
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8096563
+video 1/1 (43/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 44
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.80980736
+video 1/1 (44/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 45
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8102183
+video 1/1 (45/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.1ms
+on_predict_postprocess_end
+frame_id: 46
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8140165
+video 1/1 (46/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 47
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.81169516
+video 1/1 (47/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.5ms
+on_predict_postprocess_end
+frame_id: 48
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.81413186
+video 1/1 (48/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 49
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8141553
+video 1/1 (49/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.3ms
+on_predict_postprocess_end
+frame_id: 50
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.80942446
+video 1/1 (50/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 12.0ms
+on_predict_postprocess_end
+frame_id: 51
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8149073
+video 1/1 (51/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.1ms
+on_predict_postprocess_end
+frame_id: 52
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.81655383
+video 1/1 (52/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 53
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8184949
+video 1/1 (53/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 12.0ms
+on_predict_postprocess_end
+frame_id: 54
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.81982714
+video 1/1 (54/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 55
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8201294
+video 1/1 (55/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 56
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8163913
+video 1/1 (56/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.1ms
+on_predict_postprocess_end
+frame_id: 57
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.814335
+video 1/1 (57/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 58
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8160316
+video 1/1 (58/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.3ms
+on_predict_postprocess_end
+frame_id: 59
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.81400055
+video 1/1 (59/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 60
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8131428
+video 1/1 (60/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 12.5ms
+on_predict_postprocess_end
+frame_id: 61
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8128003
+video 1/1 (61/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.1ms
+on_predict_postprocess_end
+frame_id: 62
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.81424224
+video 1/1 (62/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.6ms
+on_predict_postprocess_end
+frame_id: 63
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8114967
+video 1/1 (63/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 64
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.80493057
+video 1/1 (64/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 65
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.80473614
+video 1/1 (65/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 66
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8061285
+video 1/1 (66/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.1ms
+on_predict_postprocess_end
+frame_id: 67
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8005917
+video 1/1 (67/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.1ms
+on_predict_postprocess_end
+frame_id: 68
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.80211496
+video 1/1 (68/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 69
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8008434
+video 1/1 (69/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.5ms
+on_predict_postprocess_end
+frame_id: 70
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.79401785
+video 1/1 (70/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 71
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.79408324
+video 1/1 (71/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.6ms
+on_predict_postprocess_end
+frame_id: 72
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.79094297
+video 1/1 (72/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 73
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7909914
+video 1/1 (73/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.5ms
+on_predict_postprocess_end
+frame_id: 74
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.78779215
+video 1/1 (74/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 75
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7824787
+video 1/1 (75/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.3ms
+on_predict_postprocess_end
+frame_id: 76
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.78511715
+video 1/1 (76/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 77
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.78594464
+video 1/1 (77/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 78
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7939194
+video 1/1 (78/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.6ms
+on_predict_postprocess_end
+frame_id: 79
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.794551
+video 1/1 (79/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.3ms
+on_predict_postprocess_end
+frame_id: 80
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7999341
+video 1/1 (80/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 81
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8048943
+video 1/1 (81/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 82
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8015778
+video 1/1 (82/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 83
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.80644804
+video 1/1 (83/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 84
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8038832
+video 1/1 (84/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 85
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.79847693
+video 1/1 (85/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 86
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7986546
+video 1/1 (86/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 87
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.79667354
+video 1/1 (87/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.5ms
+on_predict_postprocess_end
+frame_id: 88
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7980637
+video 1/1 (88/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 89
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.79599404
+video 1/1 (89/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 90
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7967172
+video 1/1 (90/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 91
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7993274
+video 1/1 (91/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 92
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7997266
+video 1/1 (92/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 93
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8006375
+video 1/1 (93/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 94
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8016325
+video 1/1 (94/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.4ms
+on_predict_postprocess_end
+frame_id: 95
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8037256
+video 1/1 (95/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.6ms
+on_predict_postprocess_end
+frame_id: 96
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.80300546
+video 1/1 (96/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.5ms
+on_predict_postprocess_end
+frame_id: 97
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8050045
+video 1/1 (97/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 98
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8016662
+video 1/1 (98/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 99
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.80507505
+video 1/1 (99/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 100
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8019515
+video 1/1 (100/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 101
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8039954
+video 1/1 (101/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 102
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.80884343
+video 1/1 (102/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 103
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8057024
+video 1/1 (103/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 14.2ms
+on_predict_postprocess_end
+frame_id: 104
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.80436164
+video 1/1 (104/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.2ms
+on_predict_postprocess_end
+frame_id: 105
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.80074966
+video 1/1 (105/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.6ms
+on_predict_postprocess_end
+frame_id: 106
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8032252
+video 1/1 (106/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.1ms
+on_predict_postprocess_end
+frame_id: 107
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.80330706
+video 1/1 (107/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.3ms
+on_predict_postprocess_end
+frame_id: 108
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.79976267
+video 1/1 (108/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.4ms
+on_predict_postprocess_end
+frame_id: 109
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.79819804
+video 1/1 (109/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 110
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7999332
+video 1/1 (110/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 111
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.79537916
+video 1/1 (111/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.6ms
+on_predict_postprocess_end
+frame_id: 112
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.79591966
+video 1/1 (112/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 113
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7874513
+video 1/1 (113/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.1ms
+on_predict_postprocess_end
+frame_id: 114
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.78805816
+video 1/1 (114/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.5ms
+on_predict_postprocess_end
+frame_id: 115
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7864689
+video 1/1 (115/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.0ms
+on_predict_postprocess_end
+frame_id: 116
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.78082085
+video 1/1 (116/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 117
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7833061
+video 1/1 (117/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.0ms
+on_predict_postprocess_end
+frame_id: 118
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7853821
+video 1/1 (118/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 119
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.78353786
+video 1/1 (119/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 120
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7727131
+video 1/1 (120/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 121
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.77840227
+video 1/1 (121/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.8ms
+on_predict_postprocess_end
+frame_id: 122
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.776527
+video 1/1 (122/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 123
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7699101
+video 1/1 (123/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.0ms
+on_predict_postprocess_end
+frame_id: 124
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.76119643
+video 1/1 (124/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 125
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.75645286
+video 1/1 (125/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.4ms
+on_predict_postprocess_end
+frame_id: 126
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.788152
+video 1/1 (126/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.0ms
+on_predict_postprocess_end
+frame_id: 127
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.75450844
+video 1/1 (127/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.5ms
+on_predict_postprocess_end
+frame_id: 128
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7655826
+video 1/1 (128/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 129
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.75555456
+video 1/1 (129/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.0ms
+on_predict_postprocess_end
+frame_id: 130
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7551942
+video 1/1 (130/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 131
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7546417
+video 1/1 (131/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.5ms
+on_predict_postprocess_end
+frame_id: 132
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7350492
+video 1/1 (132/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 133
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.80092657
+video 1/1 (133/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 134
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.75169873
+video 1/1 (134/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 135
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.74603254
+video 1/1 (135/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 136
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7489628
+video 1/1 (136/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 137
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.75711596
+video 1/1 (137/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 138
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.75600696
+video 1/1 (138/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 139
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7553782
+video 1/1 (139/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.6ms
+on_predict_postprocess_end
+frame_id: 140
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.74001807
+video 1/1 (140/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.5ms
+on_predict_postprocess_end
+frame_id: 141
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7576643
+video 1/1 (141/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 142
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7745498
+video 1/1 (142/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.1ms
+on_predict_postprocess_end
+frame_id: 143
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7712074
+video 1/1 (143/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 144
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8012495
+video 1/1 (144/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.0ms
+on_predict_postprocess_end
+frame_id: 145
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.77368397
+video 1/1 (145/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 146
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.79459006
+video 1/1 (146/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.1ms
+on_predict_postprocess_end
+frame_id: 147
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7663514
+video 1/1 (147/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 148
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7629141
+video 1/1 (148/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 149
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.76637137
+video 1/1 (149/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 150
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7486693
+video 1/1 (150/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 151
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.74658597
+video 1/1 (151/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 152
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7499223
+video 1/1 (152/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 12.0ms
+on_predict_postprocess_end
+frame_id: 153
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.73949045
+video 1/1 (153/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.6ms
+on_predict_postprocess_end
+frame_id: 154
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7580199
+video 1/1 (154/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 155
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7374705
+video 1/1 (155/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.9ms
+on_predict_postprocess_end
+frame_id: 156
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7441481
+video 1/1 (156/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 157
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.77734375
+video 1/1 (157/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 158
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.750259
+video 1/1 (158/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 159
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7487504
+video 1/1 (159/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 160
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.76738375
+video 1/1 (160/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 161
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.75092113
+video 1/1 (161/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 162
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.79114425
+video 1/1 (162/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.5ms
+on_predict_postprocess_end
+frame_id: 163
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.74840003
+video 1/1 (163/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 164
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7522074
+video 1/1 (164/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 165
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7742399
+video 1/1 (165/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 166
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.76237774
+video 1/1 (166/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 167
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7780807
+video 1/1 (167/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.5ms
+on_predict_postprocess_end
+frame_id: 168
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.771914
+video 1/1 (168/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 169
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.77515054
+video 1/1 (169/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 170
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7596181
+video 1/1 (170/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 171
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.77780163
+video 1/1 (171/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 172
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.78382367
+video 1/1 (172/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 173
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7719617
+video 1/1 (173/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.1ms
+on_predict_postprocess_end
+frame_id: 174
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7841325
+video 1/1 (174/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 175
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.77420616
+video 1/1 (175/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 176
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7826868
+video 1/1 (176/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.6ms
+on_predict_postprocess_end
+frame_id: 177
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7729775
+video 1/1 (177/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 178
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7831509
+video 1/1 (178/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 179
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7770063
+video 1/1 (179/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 180
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.76105493
+video 1/1 (180/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 181
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7729285
+video 1/1 (181/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 182
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7491496
+video 1/1 (182/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 183
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7629476
+video 1/1 (183/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 184
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7572086
+video 1/1 (184/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.1ms
+on_predict_postprocess_end
+frame_id: 185
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7750097
+video 1/1 (185/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.4ms
+on_predict_postprocess_end
+frame_id: 186
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7555075
+video 1/1 (186/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.4ms
+on_predict_postprocess_end
+frame_id: 187
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7611899
+video 1/1 (187/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.1ms
+on_predict_postprocess_end
+frame_id: 188
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.762998
+video 1/1 (188/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 189
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7398918
+video 1/1 (189/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 190
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7486286
+video 1/1 (190/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 191
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7343142
+video 1/1 (191/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 192
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7424735
+video 1/1 (192/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 193
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.75693965
+video 1/1 (193/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 194
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7473917
+video 1/1 (194/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.5ms
+on_predict_postprocess_end
+frame_id: 195
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7351813
+video 1/1 (195/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.0ms
+on_predict_postprocess_end
+frame_id: 196
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7466342
+video 1/1 (196/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.1ms
+on_predict_postprocess_end
+frame_id: 197
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.75913614
+video 1/1 (197/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.4ms
+on_predict_postprocess_end
+frame_id: 198
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.77065885
+video 1/1 (198/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.1ms
+on_predict_postprocess_end
+frame_id: 199
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7726122
+video 1/1 (199/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 200
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7675633
+video 1/1 (200/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.6ms
+on_predict_postprocess_end
+frame_id: 201
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.76554626
+video 1/1 (201/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 202
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7883538
+video 1/1 (202/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.3ms
+on_predict_postprocess_end
+frame_id: 203
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7995448
+video 1/1 (203/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.6ms
+on_predict_postprocess_end
+frame_id: 204
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8012244
+video 1/1 (204/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 205
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.8074596
+video 1/1 (205/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 206
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7991726
+video 1/1 (206/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 207
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7837266
+video 1/1 (207/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.3ms
+on_predict_postprocess_end
+frame_id: 208
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.77851164
+video 1/1 (208/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.1ms
+on_predict_postprocess_end
+frame_id: 209
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.761411
+video 1/1 (209/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 210
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.768861
+video 1/1 (210/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 211
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.77568954
+video 1/1 (211/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 212
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.77369565
+video 1/1 (212/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.6ms
+on_predict_postprocess_end
+frame_id: 213
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.78546077
+video 1/1 (213/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 214
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7665357
+video 1/1 (214/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 215
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.7226651
+video 1/1 (215/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.3ms
+on_predict_postprocess_end
+frame_id: 216
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.6644923
+video 1/1 (216/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.0ms
+on_predict_postprocess_end
+frame_id: 217
+Data in tracked_strack:
+Track ID: 1
+Other state: 1
+Other score: 0.26695818
+video 1/1 (217/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+video 1/1 (218/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (219/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (220/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (221/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (222/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.5ms
+on_predict_postprocess_end
+video 1/1 (223/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.1ms
+on_predict_postprocess_end
+video 1/1 (224/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (225/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (226/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.4ms
+on_predict_postprocess_end
+video 1/1 (227/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 11.0ms
+on_predict_postprocess_end
+video 1/1 (228/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (229/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (230/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.2ms
+on_predict_postprocess_end
+video 1/1 (231/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 11.3ms
+on_predict_postprocess_end
+video 1/1 (232/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 11.2ms
+on_predict_postprocess_end
+video 1/1 (233/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.4ms
+on_predict_postprocess_end
+video 1/1 (234/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.1ms
+on_predict_postprocess_end
+video 1/1 (235/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.6ms
+on_predict_postprocess_end
+video 1/1 (236/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (237/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.2ms
+on_predict_postprocess_end
+video 1/1 (238/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 11.2ms
+on_predict_postprocess_end
+video 1/1 (239/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.2ms
+on_predict_postprocess_end
+video 1/1 (240/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (241/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (242/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (243/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (244/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.1ms
+on_predict_postprocess_end
+video 1/1 (245/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (246/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.1ms
+on_predict_postprocess_end
+video 1/1 (247/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (248/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.5ms
+on_predict_postprocess_end
+video 1/1 (249/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (250/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (251/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 11.0ms
+on_predict_postprocess_end
+video 1/1 (252/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.1ms
+on_predict_postprocess_end
+video 1/1 (253/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.1ms
+on_predict_postprocess_end
+video 1/1 (254/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.1ms
+on_predict_postprocess_end
+video 1/1 (255/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.5ms
+on_predict_postprocess_end
+video 1/1 (256/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 12.0ms
+on_predict_postprocess_end
+video 1/1 (257/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (258/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 11.3ms
+on_predict_postprocess_end
+video 1/1 (259/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (260/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (261/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.5ms
+on_predict_postprocess_end
+video 1/1 (262/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 12.0ms
+on_predict_postprocess_end
+video 1/1 (263/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (264/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (265/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 12.0ms
+on_predict_postprocess_end
+video 1/1 (266/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.6ms
+on_predict_postprocess_end
+video 1/1 (267/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (268/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (269/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.4ms
+on_predict_postprocess_end
+video 1/1 (270/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (271/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (272/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (273/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (274/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.5ms
+on_predict_postprocess_end
+video 1/1 (275/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (276/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (277/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (278/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 11.1ms
+on_predict_postprocess_end
+video 1/1 (279/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.1ms
+on_predict_postprocess_end
+video 1/1 (280/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (281/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (282/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (283/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (284/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (285/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 11.2ms
+on_predict_postprocess_end
+video 1/1 (286/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (287/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (288/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (289/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (290/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (291/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (292/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (293/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (294/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.2ms
+on_predict_postprocess_end
+video 1/1 (295/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 11.0ms
+on_predict_postprocess_end
+video 1/1 (296/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (297/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (298/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (299/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (300/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 11.0ms
+on_predict_postprocess_end
+video 1/1 (301/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (302/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.4ms
+on_predict_postprocess_end
+video 1/1 (303/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (304/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (305/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (306/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (307/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.7ms
+on_predict_postprocess_end
+video 1/1 (308/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.1ms
+on_predict_postprocess_end
+video 1/1 (309/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (310/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 11.0ms
+on_predict_postprocess_end
+video 1/1 (311/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.1ms
+on_predict_postprocess_end
+video 1/1 (312/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.1ms
+on_predict_postprocess_end
+video 1/1 (313/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (314/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.1ms
+on_predict_postprocess_end
+video 1/1 (315/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (316/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (317/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (318/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (319/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (320/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.5ms
+on_predict_postprocess_end
+video 1/1 (321/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (322/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (323/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (324/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 11.0ms
+on_predict_postprocess_end
+video 1/1 (325/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 12.0ms
+on_predict_postprocess_end
+video 1/1 (326/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (327/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (328/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (329/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (330/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 9.0ms
+on_predict_postprocess_end
+video 1/1 (331/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (332/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (333/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 11.1ms
+on_predict_postprocess_end
+video 1/1 (334/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (335/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (336/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (337/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+video 1/1 (338/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 (no detections), 10.0ms
+on_predict_postprocess_end
+frame_id: 218
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+video 1/1 (339/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 219
+Data in tracked_strack:
+Track ID: 2
+Other state: 1
+Other score: 0.60067
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+video 1/1 (340/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 220
+Data in tracked_strack:
+Track ID: 3
+Other state: 1
+Other score: 0.7843771
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+video 1/1 (341/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.5ms
+on_predict_postprocess_end
+frame_id: 221
+Data in tracked_strack:
+Track ID: 4
+Other state: 1
+Other score: 0.76795334
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+video 1/1 (342/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.2ms
+on_predict_postprocess_end
+frame_id: 222
+Data in tracked_strack:
+Track ID: 5
+Other state: 1
+Other score: 0.76896864
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+video 1/1 (343/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.0ms
+on_predict_postprocess_end
+frame_id: 223
+Data in tracked_strack:
+Track ID: 6
+Other state: 1
+Other score: 0.79266244
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+video 1/1 (344/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.3ms
+on_predict_postprocess_end
+frame_id: 224
+Data in tracked_strack:
+Track ID: 7
+Other state: 1
+Other score: 0.7809928
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+video 1/1 (345/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 225
+Data in tracked_strack:
+Track ID: 8
+Other state: 1
+Other score: 0.77901465
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+video 1/1 (346/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 226
+Data in tracked_strack:
+Track ID: 8
+Other state: 1
+Other score: 0.79511815
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+video 1/1 (347/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 227
+Data in tracked_strack:
+Track ID: 8
+Other state: 1
+Other score: 0.7807572
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+video 1/1 (348/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 11.1ms
+on_predict_postprocess_end
+frame_id: 228
+Data in tracked_strack:
+Track ID: 8
+Other state: 1
+Other score: 0.77949893
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+video 1/1 (349/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 229
+Data in tracked_strack:
+Track ID: 8
+Other state: 1
+Other score: 0.7912697
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+video 1/1 (350/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 230
+Data in tracked_strack:
+Track ID: 8
+Other state: 1
+Other score: 0.79719007
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+video 1/1 (351/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.4ms
+on_predict_postprocess_end
+frame_id: 231
+Data in tracked_strack:
+Track ID: 8
+Other state: 1
+Other score: 0.8021634
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+video 1/1 (352/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.2ms
+on_predict_postprocess_end
+frame_id: 232
+Data in tracked_strack:
+Track ID: 8
+Other state: 1
+Other score: 0.8000696
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+video 1/1 (353/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.0ms
+on_predict_postprocess_end
+frame_id: 233
+Data in tracked_strack:
+Track ID: 8
+Other state: 1
+Other score: 0.79889876
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+video 1/1 (354/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 234
+Data in tracked_strack:
+Track ID: 8
+Other state: 1
+Other score: 0.804903
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+video 1/1 (355/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.1ms
+on_predict_postprocess_end
+frame_id: 235
+Data in tracked_strack:
+Track ID: 8
+Other state: 1
+Other score: 0.79889905
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+video 1/1 (356/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.8ms
+on_predict_postprocess_end
+frame_id: 236
+Data in tracked_strack:
+Track ID: 8
+Other state: 1
+Other score: 0.78915554
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+video 1/1 (357/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.5ms
+on_predict_postprocess_end
+frame_id: 237
+Data in tracked_strack:
+Track ID: 8
+Other state: 1
+Other score: 0.7989901
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+video 1/1 (358/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.4ms
+on_predict_postprocess_end
+frame_id: 238
+Data in tracked_strack:
+Track ID: 8
+Other state: 1
+Other score: 0.79187655
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+video 1/1 (359/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.4ms
+on_predict_postprocess_end
+frame_id: 239
+Data in tracked_strack:
+Track ID: 8
+Other state: 1
+Other score: 0.78113276
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+video 1/1 (360/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.7ms
+on_predict_postprocess_end
+frame_id: 240
+Data in tracked_strack:
+Track ID: 8
+Other state: 1
+Other score: 0.7723942
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+video 1/1 (361/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 10.0ms
+on_predict_postprocess_end
+frame_id: 241
+Data in tracked_strack:
+Track ID: 9
+Other state: 1
+Other score: 0.77721
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in lost_stracks:
+Track ID: 8
+Other state: 2
+Other score: 0.7723942
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+video 1/1 (362/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.1ms
+on_predict_postprocess_end
+frame_id: 242
+Data in tracked_strack:
+Track ID: 10
+Other state: 1
+Other score: 0.78991127
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in lost_stracks:
+Track ID: 8
+Other state: 2
+Other score: 0.7723942
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+Data in removed_stracks:
+Track ID: 9
+Other state: 3
+Other score: 0.77721
+video 1/1 (363/1000) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\video\output_video10.avi: 512x640 1 Drone, 9.2ms
+on_predict_postprocess_end
+frame_id: 243
+Data in tracked_strack:
+Track ID: 11
+Other state: 1
+Other score: 0.7874984
+Data in lost_stracks:
+Track ID: 1
+Other state: 2
+Other score: 0.26695818
+Data in lost_stracks:
+Track ID: 8
+Other state: 2
+Other score: 0.7723942
+Data in removed_stracks:
+Track ID: 2
+Other state: 3
+Other score: 0.60067
+Data in removed_stracks:
+Track ID: 3
+Other state: 3
+Other score: 0.7843771
+Data in removed_stracks:
+Track ID: 4
+Other state: 3
+Other score: 0.76795334
+Data in removed_stracks:
+Track ID: 5
+Other state: 3
+Other score: 0.76896864
+Data in removed_stracks:
+Track ID: 6
+Other state: 3
+Other score: 0.79266244
+Data in removed_stracks:
+Track ID: 7
+Other state: 3
+Other score: 0.7809928
+Data in removed_stracks:
+Track ID: 9
+Other state: 3
+Other score: 0.77721
+Data in removed_stracks:
+Track ID: 10
+Other state: 3
+Other score: 0.78991127

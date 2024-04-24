@@ -1,0 +1,1929 @@
+
+(py3.6.3) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main>python -m pdb track.py
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(1)<module>()
+-> import warnings
+(Pdb) b track.py:6
+Breakpoint 1 at e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py:6
+(Pdb) c
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(6)<module>()
+-> model = YOLO('E:/YOLOV8改进策略/全包/面具/ultralytics-20240222/ultralytics-main/runs/train/exp3/weights/best.pt') # select your model.pt path
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(7)<module>()
+-> model.track(source='E:/YOLOV8改进策略/全包/面具/ultralytics-20240222/ultralytics-main/images/test/64000309.jpg',
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(8)<module>()
+-> model='E:/YOLOV8改进策略/全包/面具/ultralytics-20240222/ultralytics-main/ultralytics/cfg/trackers/bytetrack.yaml',
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(9)<module>()
+-> imgsz=640,
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(10)<module>()
+-> project='runs/track',
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(11)<module>()
+-> name='exp',
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(12)<module>()
+-> save=True,
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(7)<module>()
+-> model.track(source='E:/YOLOV8改进策略/全包/面具/ultralytics-20240222/ultralytics-main/images/test/64000309.jpg',
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(409)track()
+-> def track(self, source=None, stream=False, persist=False, **kwargs):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(434)track()
+-> if not hasattr(self.predictor, "trackers"):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(435)track()
+-> from ultralytics.trackers import register_tracker
+(Pdb) s
+--Call--
+> <frozen importlib._bootstrap>(1022)_find_and_load()
+(Pdb) s
+> <frozen importlib._bootstrap>(1024)_find_and_load()
+(Pdb) s
+--Call--
+> <frozen importlib._bootstrap>(165)__init__()
+(Pdb) s
+> <frozen importlib._bootstrap>(166)__init__()
+(Pdb) s
+> <frozen importlib._bootstrap>(167)__init__()
+(Pdb) s
+--Return--
+> <frozen importlib._bootstrap>(167)__init__()->None
+(Pdb) s
+--Call--
+> <frozen importlib._bootstrap>(169)__enter__()
+(Pdb) n
+> <frozen importlib._bootstrap>(170)__enter__()
+(Pdb) n
+> <frozen importlib._bootstrap>(171)__enter__()
+(Pdb) n
+--Return--
+> <frozen importlib._bootstrap>(171)__enter__()->None
+(Pdb) n
+> <frozen importlib._bootstrap>(1025)_find_and_load()
+(Pdb) n
+> <frozen importlib._bootstrap>(1026)_find_and_load()
+(Pdb) n
+> <frozen importlib._bootstrap>(1027)_find_and_load()
+(Pdb) n
+> <frozen importlib._bootstrap>(1024)_find_and_load()
+(Pdb) n
+--Return--
+> <frozen importlib._bootstrap>(1024)_find_and_load()-><module 'ultr...\__init__.py'>
+(Pdb) n
+--Call--
+> <frozen importlib._bootstrap>(1053)_handle_fromlist()
+(Pdb) n
+> <frozen importlib._bootstrap>(1063)_handle_fromlist()
+(Pdb) n
+> <frozen importlib._bootstrap>(1064)_handle_fromlist()
+(Pdb) n
+> <frozen importlib._bootstrap>(1071)_handle_fromlist()
+(Pdb) n
+> <frozen importlib._bootstrap>(1075)_handle_fromlist()
+(Pdb) n
+> <frozen importlib._bootstrap>(1063)_handle_fromlist()
+(Pdb) n
+> <frozen importlib._bootstrap>(1087)_handle_fromlist()
+(Pdb) n
+--Return--
+> <frozen importlib._bootstrap>(1087)_handle_fromlist()-><module 'ultr...\__init__.py'>
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(437)track()
+-> register_tracker(self, persist)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(438)track()
+-> kwargs["conf"] = kwargs.get("conf") or 0.1  # ByteTrack-based method needs low confidence predictions as input
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(439)track()
+-> kwargs["mode"] = "track"
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(440)track()
+-> return self.predict(source=source, stream=stream, **kwargs)
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(357)predict()
+-> def predict(self, source=None, stream=False, predictor=None, **kwargs):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(386)predict()
+-> if source is None:
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(390)predict()
+-> is_cli = (sys.argv[0].endswith("yolo") or sys.argv[0].endswith("ultralytics")) and any(
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(394)predict()
+-> custom = {"conf": 0.25, "save": is_cli, "mode": "predict"}  # method defaults
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(395)predict()
+-> args = {**self.overrides, **custom, **kwargs}  # highest priority args on the right
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(396)predict()
+-> prompts = args.pop("prompts", None)  # for SAM-type models
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(398)predict()
+-> if not self.predictor:
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(399)predict()
+-> self.predictor = predictor or self._smart_load("predictor")(overrides=args, _callbacks=self.callbacks)
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(743)_smart_load()
+-> def _smart_load(self, key):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(745)_smart_load()
+-> try:
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(746)_smart_load()
+-> return self.task_map[self.task][key]
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(11)task_map()
+-> @property
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(16)task_map()
+-> "model": ClassificationModel,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(17)task_map()
+-> "trainer": yolo.classify.ClassificationTrainer,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(18)task_map()
+-> "validator": yolo.classify.ClassificationValidator,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(19)task_map()
+-> "predictor": yolo.classify.ClassificationPredictor,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(15)task_map()
+-> "classify": {
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(22)task_map()
+-> "model": DetectionModel,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(23)task_map()
+-> "trainer": yolo.detect.DetectionTrainer,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(24)task_map()
+-> "validator": yolo.detect.DetectionValidator,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(25)task_map()
+-> "predictor": yolo.detect.DetectionPredictor,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(21)task_map()
+-> "detect": {
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(28)task_map()
+-> "model": SegmentationModel,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(29)task_map()
+-> "trainer": yolo.segment.SegmentationTrainer,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(30)task_map()
+-> "validator": yolo.segment.SegmentationValidator,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(31)task_map()
+-> "predictor": yolo.segment.SegmentationPredictor,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(27)task_map()
+-> "segment": {
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(34)task_map()
+-> "model": PoseModel,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(35)task_map()
+-> "trainer": yolo.pose.PoseTrainer,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(36)task_map()
+-> "validator": yolo.pose.PoseValidator,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(37)task_map()
+-> "predictor": yolo.pose.PosePredictor,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(33)task_map()
+-> "pose": {
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(40)task_map()
+-> "model": OBBModel,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(41)task_map()
+-> "trainer": yolo.obb.OBBTrainer,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(42)task_map()
+-> "validator": yolo.obb.OBBValidator,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(43)task_map()
+-> "predictor": yolo.obb.OBBPredictor,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(39)task_map()
+-> "obb": {
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(14)task_map()
+-> return {
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\models\yolo\model.py(14)task_map()->{'classify': {'model': <class 'ultra...icationModel'>, 'predictor':
+<class 'ultra...ionPredictor'>, 'trainer': <class 'ultra...ationTrainer'>, 'validator': <class 'ultra...ionValidator'>}, 'detect': {'model': <class 'ultra...tectionModel'>, 'predictor'
+: <class 'ultra...ionPredictor'>, 'trainer': <class 'ultra...ctionTrainer'>, 'validator': <class 'ultra...ionValidator'>}, 'obb': {'model': <class 'ultra...sks.OBBModel'>, 'predictor':
+ <class 'ultra...OBBPredictor'>, 'trainer': <class 'ultra...n.OBBTrainer'>, 'validator': <class 'ultra...OBBValidator'>}, 'pose': {'model': <class 'ultra...ks.PoseModel'>, 'predictor': <class 'ultra...osePredictor'>, 'trainer': <class 'ultra....PoseTrainer'>, 'validator': <class 'ultra...oseValidator'>}, ...}
+-> return {
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(746)_smart_load()-><class 'ultra...ionPredictor'>
+-> return self.task_map[self.task][key]
+(Pdb) n
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(79)__init__()
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(88)__init__()
+-> self.save_dir = get_save_dir(self.args)
+(Pdb) --KeyboardInterrupt--
+(Pdb) q
+
+(py3.6.3) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main>python track.py
+mode: track
+
+on_predict_postprocess_end
+image 1/1 E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\images\test\64000309.jpg: 512x640 1 Drone, 88.0ms
+Speed: 1.4ms preprocess, 88.0ms inference, 1.0ms postprocess per image at shape (1, 3, 512, 640)
+Results saved to runs\track\exp14
+1 label saved to runs\track\exp14\labels
+
+(py3.6.3) E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main>python -m pdb track.py
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(1)<module>()
+-> import warnings
+(Pdb) b track.py:6
+Breakpoint 1 at e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py:6
+(Pdb) c
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(6)<module>()
+-> model = YOLO('E:/YOLOV8改进策略/全包/面具/ultralytics-20240222/ultralytics-main/runs/train/exp3/weights/best.pt') # select your model.pt path
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(82)__init__()
+-> def __init__(self, model: Union[str, Path] = "yolov8n.pt", task=None, verbose=False) -> None:
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(103)__init__()
+-> super().__init__()
+(Pdb) s
+--Call--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(451)__init__()
+-> def __init__(self, *args, **kwargs) -> None:
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(456)__init__()
+-> torch._C._log_api_usage_once("python.nn_module")
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(459)__init__()
+-> if self.call_super_init is False and bool(kwargs):
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(463)__init__()
+-> if self.call_super_init is False and bool(args):
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(467)__init__()
+-> """
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(473)__init__()
+-> super().__setattr__('training', True)
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(474)__init__()
+-> super().__setattr__('_parameters', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(475)__init__()
+-> super().__setattr__('_buffers', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(476)__init__()
+-> super().__setattr__('_non_persistent_buffers_set', set())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(477)__init__()
+-> super().__setattr__('_backward_pre_hooks', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(478)__init__()
+-> super().__setattr__('_backward_hooks', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(479)__init__()
+-> super().__setattr__('_is_full_backward_hook', None)
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(480)__init__()
+-> super().__setattr__('_forward_hooks', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(481)__init__()
+-> super().__setattr__('_forward_hooks_with_kwargs', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(482)__init__()
+-> super().__setattr__('_forward_hooks_always_called', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(483)__init__()
+-> super().__setattr__('_forward_pre_hooks', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(484)__init__()
+-> super().__setattr__('_forward_pre_hooks_with_kwargs', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(485)__init__()
+-> super().__setattr__('_state_dict_hooks', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(486)__init__()
+-> super().__setattr__('_state_dict_pre_hooks', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(487)__init__()
+-> super().__setattr__('_load_state_dict_pre_hooks', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(488)__init__()
+-> super().__setattr__('_load_state_dict_post_hooks', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(489)__init__()
+-> super().__setattr__('_modules', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(491)__init__()
+-> if self.call_super_init:
+(Pdb) n
+--Return--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(491)__init__()->None
+-> if self.call_super_init:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(104)__init__()
+-> self.callbacks = callbacks.get_default_callbacks()
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(105)__init__()
+-> self.predictor = None  # reuse predictor
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(106)__init__()
+-> self.model = None  # model object
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(107)__init__()
+-> self.trainer = None  # trainer object
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(108)__init__()
+-> self.ckpt = None  # if loaded from *.pt
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(109)__init__()
+-> self.cfg = None  # if loaded from *.yaml
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(110)__init__()
+-> self.ckpt_path = None
+(Pdb) b model.py:408
+*** 'model.py' not found from sys.path
+(Pdb) b ultralytics\engine\model.py:408
+Breakpoint 2 at e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py:408
+(Pdb) c
+mode: track
+
+on_predict_postprocess_end
+image 1/1 E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\images\test\64000309.jpg: 512x640 1 Drone, 93.7ms
+Speed: 2.5ms preprocess, 93.7ms inference, 2.0ms postprocess per image at shape (1, 3, 512, 640)
+Results saved to runs\track\exp15
+1 label saved to runs\track\exp15\labels
+The program finished and will be restarted
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(1)<module>()
+-> import warnings
+(Pdb) c
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(6)<module>()
+-> model = YOLO('E:/YOLOV8改进策略/全包/面具/ultralytics-20240222/ultralytics-main/runs/train/exp3/weights/best.pt') # select your model.pt path
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(82)__init__()
+-> def __init__(self, model: Union[str, Path] = "yolov8n.pt", task=None, verbose=False) -> None:
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(103)__init__()
+-> super().__init__()
+(Pdb) s
+--Call--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(451)__init__()
+-> def __init__(self, *args, **kwargs) -> None:
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(456)__init__()
+-> torch._C._log_api_usage_once("python.nn_module")
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(459)__init__()
+-> if self.call_super_init is False and bool(kwargs):
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(463)__init__()
+-> if self.call_super_init is False and bool(args):
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(467)__init__()
+-> """
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(473)__init__()
+-> super().__setattr__('training', True)
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(474)__init__()
+-> super().__setattr__('_parameters', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(475)__init__()
+-> super().__setattr__('_buffers', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(476)__init__()
+-> super().__setattr__('_non_persistent_buffers_set', set())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(477)__init__()
+-> super().__setattr__('_backward_pre_hooks', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(478)__init__()
+-> super().__setattr__('_backward_hooks', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(479)__init__()
+-> super().__setattr__('_is_full_backward_hook', None)
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(480)__init__()
+-> super().__setattr__('_forward_hooks', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(481)__init__()
+-> super().__setattr__('_forward_hooks_with_kwargs', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(482)__init__()
+-> super().__setattr__('_forward_hooks_always_called', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(483)__init__()
+-> super().__setattr__('_forward_pre_hooks', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(484)__init__()
+-> super().__setattr__('_forward_pre_hooks_with_kwargs', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(485)__init__()
+-> super().__setattr__('_state_dict_hooks', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(486)__init__()
+-> super().__setattr__('_state_dict_pre_hooks', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(487)__init__()
+-> super().__setattr__('_load_state_dict_pre_hooks', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(488)__init__()
+-> super().__setattr__('_load_state_dict_post_hooks', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(489)__init__()
+-> super().__setattr__('_modules', OrderedDict())
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(491)__init__()
+-> if self.call_super_init:
+(Pdb) n
+--Return--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(491)__init__()->None
+-> if self.call_super_init:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(104)__init__()
+-> self.callbacks = callbacks.get_default_callbacks()
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(105)__init__()
+-> self.predictor = None  # reuse predictor
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(106)__init__()
+-> self.model = None  # model object
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(107)__init__()
+-> self.trainer = None  # trainer object
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(108)__init__()
+-> self.ckpt = None  # if loaded from *.pt
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(109)__init__()
+-> self.cfg = None  # if loaded from *.yaml
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(110)__init__()
+-> self.ckpt_path = None
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(111)__init__()
+-> self.overrides = {}  # overrides for trainer object
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(112)__init__()
+-> self.metrics = None  # validation/training metrics
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(113)__init__()
+-> self.session = None  # HUB session
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(114)__init__()
+-> self.task = task  # task type
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(115)__init__()
+-> self.model_name = model = str(model).strip()  # strip spaces
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(118)__init__()
+-> if self.is_hub_model(model):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(125)__init__()
+-> elif self.is_triton_model(model):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(131)__init__()
+-> model = checks.check_model_file_from_stem(model)  # add suffix, i.e. yolov8n -> yolov8n.pt
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(132)__init__()
+-> if Path(model).suffix in (".yaml", ".yml"):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(135)__init__()
+-> self._load(model, task=task)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(137)__init__()
+-> self.model_name = model
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(137)__init__()->None
+-> self.model_name = model
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(7)<module>()
+-> model.track(source='E:/YOLOV8改进策略/全包/面具/ultralytics-20240222/ultralytics-main/images/test/64000309.jpg',
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(8)<module>()
+-> model='E:/YOLOV8改进策略/全包/面具/ultralytics-20240222/ultralytics-main/ultralytics/cfg/trackers/bytetrack.yaml',
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(9)<module>()
+-> imgsz=640,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(10)<module>()
+-> project='runs/track',
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(11)<module>()
+-> name='exp',
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(12)<module>()
+-> save=True,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(7)<module>()
+-> model.track(source='E:/YOLOV8改进策略/全包/面具/ultralytics-20240222/ultralytics-main/images/test/64000309.jpg',
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(411)track()
+-> def track(self, source=None, stream=False, persist=False, **kwargs):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(436)track()
+-> if not hasattr(self.predictor, "trackers"):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(437)track()
+-> from ultralytics.trackers import register_tracker
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(439)track()
+-> register_tracker(self, persist)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(440)track()
+-> kwargs["conf"] = kwargs.get("conf") or 0.1  # ByteTrack-based method needs low confidence predictions as input
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(441)track()
+-> kwargs["mode"] = "track"
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(442)track()
+-> return self.predict(source=source, stream=stream, **kwargs)
+(Pdb) n
+mode: track
+
+on_predict_postprocess_end
+image 1/1 E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\images\test\64000309.jpg: 512x640 1 Drone, 30.5ms
+Speed: 3.0ms preprocess, 30.5ms inference, 4.0ms postprocess per image at shape (1, 3, 512, 640)
+Results saved to runs\track\exp17
+1 label saved to runs\track\exp17\labels
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(442)track()->[ultralytics.e...0090217590332}]
+-> return self.predict(source=source, stream=stream, **kwargs)
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(7)<module>()->None
+-> model.track(source='E:/YOLOV8改进策略/全包/面具/ultralytics-20240222/ultralytics-main/images/test/64000309.jpg',
+(Pdb) n
+--Return--
+> <string>(1)<module>()->None
+(Pdb) c
+The program finished and will be restarted
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(1)<module>()
+-> import warnings
+(Pdb) c
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(6)<module>()
+-> model = YOLO('E:/YOLOV8改进策略/全包/面具/ultralytics-20240222/ultralytics-main/runs/train/exp3/weights/best.pt') # select your model.pt path
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(7)<module>()
+-> model.track(source='E:/YOLOV8改进策略/全包/面具/ultralytics-20240222/ultralytics-main/images/test/64000309.jpg',
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(8)<module>()
+-> model='E:/YOLOV8改进策略/全包/面具/ultralytics-20240222/ultralytics-main/ultralytics/cfg/trackers/bytetrack.yaml',
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(9)<module>()
+-> imgsz=640,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(10)<module>()
+-> project='runs/track',
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(11)<module>()
+-> name='exp',
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(12)<module>()
+-> save=True,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(7)<module>()
+-> model.track(source='E:/YOLOV8改进策略/全包/面具/ultralytics-20240222/ultralytics-main/images/test/64000309.jpg',
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(411)track()
+-> def track(self, source=None, stream=False, persist=False, **kwargs):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(436)track()
+-> if not hasattr(self.predictor, "trackers"):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(437)track()
+-> from ultralytics.trackers import register_tracker
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(439)track()
+-> register_tracker(self, persist)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(440)track()
+-> kwargs["conf"] = kwargs.get("conf") or 0.1  # ByteTrack-based method needs low confidence predictions as input
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(441)track()
+-> kwargs["mode"] = "track"
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(442)track()
+-> return self.predict(source=source, stream=stream, **kwargs)
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(357)predict()
+-> def predict(self, source=None, stream=False, predictor=None, **kwargs):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(386)predict()
+-> if source is None:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(390)predict()
+-> is_cli = (sys.argv[0].endswith("yolo") or sys.argv[0].endswith("ultralytics")) and any(
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(394)predict()
+-> custom = {"conf": 0.25, "save": is_cli, "mode": "predict"}  # method defaults
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(395)predict()
+-> args = {**self.overrides, **custom, **kwargs}  # highest priority args on the right
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(396)predict()
+-> prompts = args.pop("prompts", None)  # for SAM-type models
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(398)predict()
+-> print("mode:",args["mode"])
+(Pdb) n
+mode: track
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(400)predict()
+-> if not self.predictor:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(401)predict()
+-> self.predictor = predictor or self._smart_load("predictor")(overrides=args, _callbacks=self.callbacks)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(402)predict()
+-> self.predictor.setup_model(model=self.model, verbose=is_cli)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(407)predict()
+-> if prompts and hasattr(self.predictor, "set_prompts"):  # for SAM-type models
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\model.py(409)predict()
+-> return self.predictor.predict_cli(source=source) if is_cli else self.predictor(source=source, stream=stream)
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(200)__call__()
+-> def __call__(self, source=None, model=None, stream=False, *args, **kwargs):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(202)__call__()
+-> self.stream = stream
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(203)__call__()
+-> if stream:
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(206)__call__()
+-> return list(self.stream_inference(source, model, *args, **kwargs))  # merge list of Result into one
+(Pdb) s
+--Call--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\utils\_contextlib.py(24)generator_context()
+-> @functools.wraps(func)
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\utils\_contextlib.py(26)generator_context()
+-> gen = func(*args, **kwargs)
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\utils\_contextlib.py(32)generator_context()
+-> try:
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\utils\_contextlib.py(34)generator_context()
+-> with ctx_factory():
+(Pdb) s
+--Call--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(269)clone()
+-> def clone(self) -> "inference_mode":
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(270)clone()
+-> return self.__class__(self.mode)
+(Pdb) s
+--Call--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(257)__new__()
+-> def __new__(cls, mode=True):
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(258)__new__()
+-> if isinstance(mode, bool):
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(259)__new__()
+-> return super().__new__(cls)
+(Pdb) s
+--Return--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(259)__new__()-><torch.autogr...00226A9AB1180>
+-> return super().__new__(cls)
+(Pdb) s
+--Call--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(250)__init__()
+-> def __init__(self, mode: bool = True) -> None:
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(251)__init__()
+-> if not torch._jit_internal.is_scripting():
+(Pdb) s
+--Call--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\_jit_internal.py(1109)is_scripting()
+-> def is_scripting() -> bool:
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\_jit_internal.py(1128)is_scripting()
+-> return False
+(Pdb) s
+--Return--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\_jit_internal.py(1128)is_scripting()->False
+-> return False
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(252)__init__()
+-> super().__init__()
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(254)__init__()
+-> self._inference_mode_raii_context: Optional[torch._C._InferenceMode] = None
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(255)__init__()
+-> self.mode = mode
+(Pdb) s
+--Return--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(255)__init__()->None
+-> self.mode = mode
+(Pdb) s
+--Return--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(270)clone()-><torch.autogr...00226A9AB1180>
+-> return self.__class__(self.mode)
+(Pdb) s
+--Call--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(262)__enter__()
+-> def __enter__(self) -> None:
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(263)__enter__()
+-> self._inference_mode_context = torch._C._InferenceMode(self.mode)
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(264)__enter__()
+-> self._inference_mode_context.__enter__()
+(Pdb) s
+--Return--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(264)__enter__()->None
+-> self._inference_mode_context.__enter__()
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\utils\_contextlib.py(35)generator_context()
+-> response = gen.send(None)
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(244)stream_inference()
+-> @smart_inference_mode()
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(247)stream_inference()
+-> if self.args.verbose:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(248)stream_inference()
+-> LOGGER.info("")
+(Pdb) n
+
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(251)stream_inference()
+-> if not self.model:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(254)stream_inference()
+-> with self._lock:  # for thread-safe inference
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(256)stream_inference()
+-> self.setup_source(source if source is not None else self.args.source)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(259)stream_inference()
+-> if self.args.save or self.args.save_txt:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(260)stream_inference()
+-> (self.save_dir / "labels" if self.args.save_txt else self.save_dir).mkdir(parents=True, exist_ok=True)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(263)stream_inference()
+-> if not self.done_warmup:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(264)stream_inference()
+-> self.model.warmup(imgsz=(1 if self.model.pt or self.model.triton else self.dataset.bs, 3, *self.imgsz))
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(265)stream_inference()
+-> self.done_warmup = True
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(267)stream_inference()
+-> self.seen, self.windows, self.batch = 0, [], None
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(269)stream_inference()
+-> ops.Profile(device=self.device),
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(270)stream_inference()
+-> ops.Profile(device=self.device),
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(271)stream_inference()
+-> ops.Profile(device=self.device),
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(268)stream_inference()
+-> profilers = (
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(273)stream_inference()
+-> self.run_callbacks("on_predict_start")
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(400)run_callbacks()
+-> def run_callbacks(self, event: str):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(402)run_callbacks()
+-> for callback in self.callbacks.get(event, []):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(403)run_callbacks()
+-> callback(self)
+(Pdb) s
+--Call--
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(403)run_callbacks()
+-> callback(self)
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(17)on_predict_start()
+-> def on_predict_start(predictor: object, persist: bool = False) -> None:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(28)on_predict_start()
+-> if hasattr(predictor, "trackers") and persist:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(31)on_predict_start()
+-> tracker = check_yaml(predictor.args.tracker)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(32)on_predict_start()
+-> cfg = IterableSimpleNamespace(**yaml_load(tracker))
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(34)on_predict_start()
+-> if cfg.tracker_type not in ["bytetrack", "botsort"]:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(37)on_predict_start()
+-> trackers = []
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(38)on_predict_start()
+-> for _ in range(predictor.dataset.bs):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(39)on_predict_start()
+-> tracker = TRACKER_MAP[cfg.tracker_type](args=cfg, frame_rate=30)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(40)on_predict_start()
+-> trackers.append(tracker)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(38)on_predict_start()
+-> for _ in range(predictor.dataset.bs):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(41)on_predict_start()
+-> predictor.trackers = trackers
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(41)on_predict_start()->None
+-> predictor.trackers = trackers
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(402)run_callbacks()
+-> for callback in self.callbacks.get(event, []):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(403)run_callbacks()
+-> callback(self)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(402)run_callbacks()
+-> for callback in self.callbacks.get(event, []):
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(402)run_callbacks()->None
+-> for callback in self.callbacks.get(event, []):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(274)stream_inference()
+-> for batch in self.dataset:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(275)stream_inference()
+-> self.run_callbacks("on_predict_batch_start")
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(400)run_callbacks()
+-> def run_callbacks(self, event: str):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(402)run_callbacks()
+-> for callback in self.callbacks.get(event, []):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(403)run_callbacks()
+-> callback(self)
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\callbacks\base.py(113)on_predict_batch_start()
+-> def on_predict_batch_start(predictor):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\callbacks\base.py(115)on_predict_batch_start()
+-> pass
+(Pdb) s
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\callbacks\base.py(115)on_predict_batch_start()->None
+-> pass
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(402)run_callbacks()
+-> for callback in self.callbacks.get(event, []):
+(Pdb) s
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(402)run_callbacks()->None
+-> for callback in self.callbacks.get(event, []):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(276)stream_inference()
+-> self.batch = batch
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(277)stream_inference()
+-> path, im0s, vid_cap, s = batch
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(280)stream_inference()
+-> with profilers[0]:
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\ops.py(45)__enter__()
+-> def __enter__(self):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\ops.py(47)__enter__()
+-> self.start = self.time()
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\ops.py(59)time()
+-> def time(self):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\ops.py(61)time()
+-> if self.cuda:
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\ops.py(62)time()
+-> torch.cuda.synchronize(self.device)
+(Pdb) s
+--Call--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\cuda\__init__.py(773)synchronize()
+-> def synchronize(device: _device_t = None) -> None:
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\cuda\__init__.py(781)synchronize()
+-> _lazy_init()
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\cuda\__init__.py(782)synchronize()
+-> with torch.cuda.device(device):
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\cuda\__init__.py(783)synchronize()
+-> return torch._C._cuda_synchronize()
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\cuda\__init__.py(782)synchronize()
+-> with torch.cuda.device(device):
+(Pdb) n
+--Return--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\cuda\__init__.py(782)synchronize()->None
+-> with torch.cuda.device(device):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\ops.py(63)time()
+-> return time.time()
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\ops.py(63)time()->1710675783.9849324
+-> return time.time()
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\ops.py(48)__enter__()
+-> return self
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\ops.py(48)__enter__()-><ultralytics....00226A8AAADA0>
+-> return self
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(281)stream_inference()
+-> im = self.preprocess(im0s)
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(113)preprocess()
+-> def preprocess(self, im):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(120)preprocess()
+-> not_tensor = not isinstance(im, torch.Tensor)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(121)preprocess()
+-> if not_tensor:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(122)preprocess()
+-> im = np.stack(self.pre_transform(im))
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(123)preprocess()
+-> im = im[..., ::-1].transpose((0, 3, 1, 2))  # BGR to RGB, BHWC to BCHW, (n, 3, h, w)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(124)preprocess()
+-> im = np.ascontiguousarray(im)  # contiguous
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(125)preprocess()
+-> im = torch.from_numpy(im)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(127)preprocess()
+-> im = im.to(self.device)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(128)preprocess()
+-> im = im.half() if self.model.fp16 else im.float()  # uint8 to fp16/32
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(129)preprocess()
+-> if not_tensor:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(130)preprocess()
+-> im /= 255  # 0 - 255 to 0.0 - 1.0
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(131)preprocess()
+-> return im
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(131)preprocess()->tensor([[[[0....vice='cuda:0')
+-> return im
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(280)stream_inference()
+-> with profilers[0]:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(284)stream_inference()
+-> with profilers[1]:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(285)stream_inference()
+-> preds = self.inference(im, *args, **kwargs)
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(133)inference()
+-> def inference(self, im, *args, **kwargs):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(137)inference()
+-> if self.args.visualize and (not self.source_type.tensor)
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(136)inference()
+-> increment_path(self.save_dir / Path(self.batch[0][0]).stem, mkdir=True)
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(138)inference()
+-> else False
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(135)inference()
+-> visualize = (
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(140)inference()
+-> return self.model(im, augment=self.args.augment, visualize=visualize, embed=self.args.embed, *args, **kwargs)
+(Pdb) s
+--Call--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(1514)_wrapped_call_impl()
+-> def _wrapped_call_impl(self, *args, **kwargs):
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(1515)_wrapped_call_impl()
+-> if self._compiled_call_impl is not None:
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(1518)_wrapped_call_impl()
+-> return self._call_impl(*args, **kwargs)
+(Pdb) n
+--Return--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\nn\modules\module.py(1518)_wrapped_call_impl()->[tensor([[[1.8...vice='cuda:0'), [tensor([[[[ 1...vice='cuda:0'), tensor([[[[  ...vice='cuda:0'), tensor([[[[  ...vice='cuda:0')]]
+-> return self._call_impl(*args, **kwargs)
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(140)inference()->[tensor([[[1.8...vice='cuda:0'), [tensor([[[[ 1...vice='cuda:0'), tensor([[[[  ...vice='cuda:0'), tensor([[[[  ...vice='cuda:0')]]
+-> return self.model(im, augment=self.args.augment, visualize=visualize, embed=self.args.embed, *args, **kwargs)
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(286)stream_inference()
+-> if self.args.embed:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(284)stream_inference()
+-> with profilers[1]:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(291)stream_inference()
+-> with profilers[2]:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(292)stream_inference()
+-> self.results = self.postprocess(preds, im, im0s)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(291)stream_inference()
+-> with profilers[2]:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(294)stream_inference()
+-> self.run_callbacks("on_predict_postprocess_end")
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(400)run_callbacks()
+-> def run_callbacks(self, event: str):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(402)run_callbacks()
+-> for callback in self.callbacks.get(event, []):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(403)run_callbacks()
+-> callback(self)
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\callbacks\base.py(123)on_predict_postprocess_end()
+-> def on_predict_postprocess_end(predictor):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\callbacks\base.py(125)on_predict_postprocess_end()
+-> print("on_predict_postprocess_end")
+(Pdb) s
+on_predict_postprocess_end
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\callbacks\base.py(126)on_predict_postprocess_end()
+-> pass
+(Pdb) s
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\callbacks\base.py(126)on_predict_postprocess_end()->None
+-> pass
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(402)run_callbacks()
+-> for callback in self.callbacks.get(event, []):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(403)run_callbacks()
+-> callback(self)
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(44)on_predict_postprocess_end()
+-> def on_predict_postprocess_end(predictor: object, persist: bool = False) -> None:
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(52)on_predict_postprocess_end()
+-> bs = predictor.dataset.bs
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(53)on_predict_postprocess_end()
+-> path, im0s = predictor.batch[:2]
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(55)on_predict_postprocess_end()
+-> is_obb = predictor.args.task == "obb"
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(56)on_predict_postprocess_end()
+-> for i in range(bs):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(57)on_predict_postprocess_end()
+-> if not persist and predictor.vid_path[i] != str(predictor.save_dir / Path(path[i]).name):  # new video
+(Pdb) s
+--Call--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(957)__new__()
+-> def __new__(cls, *args, **kwargs):
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(958)__new__()
+-> if cls is Path:
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(959)__new__()
+-> cls = WindowsPath if os.name == 'nt' else PosixPath
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(960)__new__()
+-> self = cls._from_parts(args)
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(961)__new__()
+-> if not self._flavour.is_supported:
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(964)__new__()
+-> return self
+(Pdb) n
+--Return--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(964)__new__()->WindowsPath('...64000309.jpg')
+-> return self
+(Pdb) n
+--Call--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(710)name()
+-> @property
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(713)name()
+-> parts = self._parts
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(714)name()
+-> if len(parts) == (1 if (self._drv or self._root) else 0):
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(716)name()
+-> return parts[-1]
+(Pdb) n
+--Return--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(716)name()->'64000309.jpg'
+-> return parts[-1]
+(Pdb) n
+--Call--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(853)__truediv__()
+-> def __truediv__(self, key):
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(854)__truediv__()
+-> try:
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(855)__truediv__()
+-> return self._make_child((key,))
+(Pdb) n
+--Return--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(855)__truediv__()->WindowsPath('...64000309.jpg')
+-> return self._make_child((key,))
+(Pdb) n
+--Call--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(621)__str__()
+-> def __str__(self):
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(624)__str__()
+-> try:
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(625)__str__()
+-> return self._str
+(Pdb) n
+--Return--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\pathlib.py(625)__str__()->'runs\\track\...\64000309.jpg'
+-> return self._str
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(58)on_predict_postprocess_end()
+-> predictor.trackers[i].reset()
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\bot_sort.py(197)reset()
+-> def reset(self):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\bot_sort.py(199)reset()
+-> super().reset()
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(392)reset()
+-> def reset(self):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(394)reset()
+-> self.tracked_stracks = []  # type: list[STrack]
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(395)reset()
+-> self.lost_stracks = []  # type: list[STrack]
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(396)reset()
+-> self.removed_stracks = []  # type: list[STrack]
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(397)reset()
+-> self.frame_id = 0
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(398)reset()
+-> self.kalman_filter = self.get_kalmanfilter()
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\bot_sort.py(163)get_kalmanfilter()
+-> def get_kalmanfilter(self):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\bot_sort.py(165)get_kalmanfilter()
+-> return KalmanFilterXYWH()
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\utils\kalman_filter.py(18)__init__()
+-> def __init__(self):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\utils\kalman_filter.py(20)__init__()
+-> ndim, dt = 4, 1.0
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\utils\kalman_filter.py(23)__init__()
+-> self._motion_mat = np.eye(2 * ndim, 2 * ndim)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\utils\kalman_filter.py(24)__init__()
+-> for i in range(ndim):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\utils\kalman_filter.py(25)__init__()
+-> self._motion_mat[i, ndim + i] = dt
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\utils\kalman_filter.py(24)__init__()
+-> for i in range(ndim):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\utils\kalman_filter.py(25)__init__()
+-> self._motion_mat[i, ndim + i] = dt
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\utils\kalman_filter.py(24)__init__()
+-> for i in range(ndim):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\utils\kalman_filter.py(25)__init__()
+-> self._motion_mat[i, ndim + i] = dt
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\utils\kalman_filter.py(24)__init__()
+-> for i in range(ndim):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\utils\kalman_filter.py(25)__init__()
+-> self._motion_mat[i, ndim + i] = dt
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\utils\kalman_filter.py(24)__init__()
+-> for i in range(ndim):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\utils\kalman_filter.py(26)__init__()
+-> self._update_mat = np.eye(ndim, 2 * ndim)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\utils\kalman_filter.py(30)__init__()
+-> self._std_weight_position = 1.0 / 20
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\utils\kalman_filter.py(31)__init__()
+-> self._std_weight_velocity = 1.0 / 160
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\utils\kalman_filter.py(31)__init__()->None
+-> self._std_weight_velocity = 1.0 / 160
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\bot_sort.py(165)get_kalmanfilter()-><ultralytics....00226A9B5A320>
+-> return KalmanFilterXYWH()
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(399)reset()
+-> self.reset_id()
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(399)reset()->None
+-> self.reset_id()
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\bot_sort.py(200)reset()
+-> self.gmc.reset_params()
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\bot_sort.py(200)reset()->None
+-> self.gmc.reset_params()
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(60)on_predict_postprocess_end()
+-> det = (predictor.results[i].obb if is_obb else predictor.results[i].boxes).cpu().numpy()
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(61)on_predict_postprocess_end()
+-> if len(det) == 0:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(63)on_predict_postprocess_end()
+-> tracks = predictor.trackers[i].update(det, im0s[i])
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(253)update()
+-> def update(self, results, img=None):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(255)update()
+-> self.frame_id += 1
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(256)update()
+-> activated_stracks = []
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(257)update()
+-> refind_stracks = []
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(258)update()
+-> lost_stracks = []
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(259)update()
+-> removed_stracks = []
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(261)update()
+-> scores = results.conf
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(262)update()
+-> bboxes = results.xywhr if hasattr(results, "xywhr") else results.xywh
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(264)update()
+-> bboxes = np.concatenate([bboxes, np.arange(len(bboxes)).reshape(-1, 1)], axis=-1)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(265)update()
+-> cls = results.cls
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(267)update()
+-> remain_inds = scores > self.args.track_high_thresh
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(268)update()
+-> inds_low = scores > self.args.track_low_thresh
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(269)update()
+-> inds_high = scores < self.args.track_high_thresh
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(271)update()
+-> inds_second = np.logical_and(inds_low, inds_high)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(272)update()
+-> dets_second = bboxes[inds_second]
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(273)update()
+-> dets = bboxes[remain_inds]
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(274)update()
+-> scores_keep = scores[remain_inds]
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(275)update()
+-> scores_second = scores[inds_second]
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(276)update()
+-> cls_keep = cls[remain_inds]
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(277)update()
+-> cls_second = cls[inds_second]
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(279)update()
+-> detections = self.init_track(dets, scores_keep, cls_keep, img)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(281)update()
+-> unconfirmed = []
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(282)update()
+-> tracked_stracks = []  # type: list[STrack]
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(283)update()
+-> for track in self.tracked_stracks:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(289)update()
+-> strack_pool = self.joint_stracks(tracked_stracks, self.lost_stracks)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(291)update()
+-> self.multi_predict(strack_pool)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(292)update()
+-> if hasattr(self, "gmc") and img is not None:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(293)update()
+-> warp = self.gmc.apply(img, dets)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(294)update()
+-> STrack.multi_gmc(strack_pool, warp)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(295)update()
+-> STrack.multi_gmc(unconfirmed, warp)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(297)update()
+-> dists = self.get_dists(strack_pool, detections)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(298)update()
+-> matches, u_track, u_detection = matching.linear_assignment(dists, thresh=self.args.match_thresh)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(300)update()
+-> for itracked, idet in matches:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(310)update()
+-> detections_second = self.init_track(dets_second, scores_second, cls_second, img)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(311)update()
+-> r_tracked_stracks = [strack_pool[i] for i in u_track if strack_pool[i].state == TrackState.Tracked]
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(313)update()
+-> dists = matching.iou_distance(r_tracked_stracks, detections_second)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(314)update()
+-> matches, u_track, u_detection_second = matching.linear_assignment(dists, thresh=0.5)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(315)update()
+-> for itracked, idet in matches:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(325)update()
+-> for it in u_track:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(331)update()
+-> detections = [detections[i] for i in u_detection]
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(332)update()
+-> dists = self.get_dists(unconfirmed, detections)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(333)update()
+-> matches, u_unconfirmed, u_detection = matching.linear_assignment(dists, thresh=0.7)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(334)update()
+-> for itracked, idet in matches:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(337)update()
+-> for it in u_unconfirmed:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(342)update()
+-> for inew in u_detection:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(343)update()
+-> track = detections[inew]
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(344)update()
+-> if track.score < self.args.new_track_thresh:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(346)update()
+-> track.activate(self.kalman_filter, self.frame_id)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(347)update()
+-> activated_stracks.append(track)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(342)update()
+-> for inew in u_detection:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(349)update()
+-> for track in self.lost_stracks:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(354)update()
+-> self.tracked_stracks = [t for t in self.tracked_stracks if t.state == TrackState.Tracked]
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(355)update()
+-> self.tracked_stracks = self.joint_stracks(self.tracked_stracks, activated_stracks)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(356)update()
+-> self.tracked_stracks = self.joint_stracks(self.tracked_stracks, refind_stracks)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(357)update()
+-> self.lost_stracks = self.sub_stracks(self.lost_stracks, self.tracked_stracks)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(358)update()
+-> self.lost_stracks.extend(lost_stracks)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(359)update()
+-> self.lost_stracks = self.sub_stracks(self.lost_stracks, self.removed_stracks)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(360)update()
+-> self.tracked_stracks, self.lost_stracks = self.remove_duplicate_stracks(self.tracked_stracks, self.lost_stracks)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(361)update()
+-> self.removed_stracks.extend(removed_stracks)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(362)update()
+-> if len(self.removed_stracks) > 1000:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(365)update()
+-> return np.asarray([x.result for x in self.tracked_stracks if x.is_activated], dtype=np.float32)
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\byte_tracker.py(365)update()->array([[     ...dtype=float32)
+-> return np.asarray([x.result for x in self.tracked_stracks if x.is_activated], dtype=np.float32)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(64)on_predict_postprocess_end()
+-> if len(tracks) == 0:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(66)on_predict_postprocess_end()
+-> idx = tracks[:, -1].astype(int)
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(67)on_predict_postprocess_end()
+-> predictor.results[i] = predictor.results[i][idx]
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(107)__getitem__()
+-> def __getitem__(self, idx):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(109)__getitem__()
+-> return self._apply("__getitem__", idx)
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(129)_apply()
+-> def _apply(self, fn, *args, **kwargs):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(142)_apply()
+-> r = self.new()
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(143)_apply()
+-> for k in self._keys:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(144)_apply()
+-> v = getattr(self, k)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(145)_apply()
+-> if v is not None:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(146)_apply()
+-> setattr(r, k, getattr(v, fn)(*args, **kwargs))
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(143)_apply()
+-> for k in self._keys:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(144)_apply()
+-> v = getattr(self, k)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(145)_apply()
+-> if v is not None:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(143)_apply()
+-> for k in self._keys:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(144)_apply()
+-> v = getattr(self, k)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(145)_apply()
+-> if v is not None:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(143)_apply()
+-> for k in self._keys:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(144)_apply()
+-> v = getattr(self, k)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(145)_apply()
+-> if v is not None:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(143)_apply()
+-> for k in self._keys:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(144)_apply()
+-> v = getattr(self, k)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(145)_apply()
+-> if v is not None:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(143)_apply()
+-> for k in self._keys:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(147)_apply()
+-> return r
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(147)_apply()->ultralytics.e...rocess': None}
+-> return r
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(109)__getitem__()->ultralytics.e...rocess': None}
+-> return self._apply("__getitem__", idx)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(69)on_predict_postprocess_end()
+-> update_args = dict()
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(70)on_predict_postprocess_end()
+-> update_args["obb" if is_obb else "boxes"] = torch.as_tensor(tracks[:, :-1])
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(71)on_predict_postprocess_end()
+-> predictor.results[i].update(**update_args)
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(118)update()
+-> def update(self, boxes=None, masks=None, probs=None, obb=None):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(120)update()
+-> if boxes is not None:
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(121)update()
+-> self.boxes = Boxes(ops.clip_boxes(boxes, self.orig_shape), self.orig_shape)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(122)update()
+-> if masks is not None:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(124)update()
+-> if probs is not None:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(126)update()
+-> if obb is not None:
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\results.py(126)update()->None
+-> if obb is not None:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(56)on_predict_postprocess_end()
+-> for i in range(bs):
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\trackers\track.py(56)on_predict_postprocess_end()->None
+-> for i in range(bs):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(402)run_callbacks()
+-> for callback in self.callbacks.get(event, []):
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(402)run_callbacks()->None
+-> for callback in self.callbacks.get(event, []):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(296)stream_inference()
+-> n = len(im0s)
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(297)stream_inference()
+-> for i in range(n):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(298)stream_inference()
+-> self.seen += 1
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(300)stream_inference()
+-> "preprocess": profilers[0].dt * 1e3 / n,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(301)stream_inference()
+-> "inference": profilers[1].dt * 1e3 / n,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(302)stream_inference()
+-> "postprocess": profilers[2].dt * 1e3 / n,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(299)stream_inference()
+-> self.results[i].speed = {
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(304)stream_inference()
+-> p, im0 = path[i], None if self.source_type.tensor else im0s[i].copy()
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(305)stream_inference()
+-> p = Path(p)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(307)stream_inference()
+-> if self.args.verbose or self.args.save or self.args.save_txt or self.args.show:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(308)stream_inference()
+-> s += self.write_results(i, self.results, (p, im, im0))        # 画图代码
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(156)write_results()
+-> def write_results(self, idx, results, batch):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(158)write_results()
+-> p, im, _ = batch
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(159)write_results()
+-> log_string = ""
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(160)write_results()
+-> if len(im.shape) == 3:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(162)write_results()
+-> if self.source_type.webcam or self.source_type.from_img or self.source_type.tensor:  # batch_size >= 1
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(166)write_results()
+-> frame = getattr(self.dataset, "frame", 0)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(167)write_results()
+-> self.data_path = p
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(168)write_results()
+-> self.txt_path = str(self.save_dir / "labels" / p.stem) + ("" if self.dataset.mode == "image" else f"_{frame}")
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(169)write_results()
+-> log_string += "%gx%g " % im.shape[2:]  # print string
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(170)write_results()
+-> result = results[idx]
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(171)write_results()
+-> log_string += result.verbose()
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(173)write_results()
+-> if self.args.save or self.args.show:  # Add bbox to image
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(175)write_results()
+-> "line_width": self.args.line_width,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(176)write_results()
+-> "boxes": self.args.show_boxes,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(177)write_results()
+-> "conf": self.args.show_conf,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(178)write_results()
+-> "labels": self.args.show_labels,
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(174)write_results()
+-> plot_args = {
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(180)write_results()
+-> if not self.args.retina_masks:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(181)write_results()
+-> plot_args["im_gpu"] = im[idx]
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(183)write_results()
+-> self.plotted_img = result.plot(**plot_args)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(185)write_results()
+-> self.args.save_txt = True
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(186)write_results()
+-> if self.args.save_txt:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(187)write_results()
+-> result.save_txt(f"{self.txt_path}.txt", save_conf=self.args.save_conf)
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(188)write_results()
+-> if self.args.save_crop:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(194)write_results()
+-> return log_string
+(Pdb) n
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(194)write_results()->'512x640 1 Drone, '
+-> return log_string
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(309)stream_inference()
+-> if self.args.save or self.args.save_txt:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(310)stream_inference()
+-> self.results[i].save_dir = self.save_dir.__str__()
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(311)stream_inference()
+-> if self.args.show and self.plotted_img is not None:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(313)stream_inference()
+-> if self.args.save and self.plotted_img is not None:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(314)stream_inference()
+-> self.save_preds(vid_cap, i, str(self.save_dir / p.name))
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(297)stream_inference()
+-> for i in range(n):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(316)stream_inference()
+-> self.run_callbacks("on_predict_batch_end")
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(400)run_callbacks()
+-> def run_callbacks(self, event: str):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(402)run_callbacks()
+-> for callback in self.callbacks.get(event, []):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(403)run_callbacks()
+-> callback(self)
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\callbacks\base.py(118)on_predict_batch_end()
+-> def on_predict_batch_end(predictor):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\callbacks\base.py(120)on_predict_batch_end()
+-> pass
+(Pdb) s
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\callbacks\base.py(120)on_predict_batch_end()->None
+-> pass
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(402)run_callbacks()
+-> for callback in self.callbacks.get(event, []):
+(Pdb) s
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(402)run_callbacks()->None
+-> for callback in self.callbacks.get(event, []):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(317)stream_inference()
+-> yield from self.results
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(320)stream_inference()
+-> if self.args.verbose:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(321)stream_inference()
+-> LOGGER.info(f"{s}{profilers[1].dt * 1E3:.1f}ms")
+(Pdb) n
+image 1/1 E:\YOLOV8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\images\test\64000309.jpg: 512x640 1 Drone, 117198.3ms
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(274)stream_inference()
+-> for batch in self.dataset:
+(Pdb) n
+StopIteration
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(274)stream_inference()
+-> for batch in self.dataset:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(254)stream_inference()
+-> with self._lock:  # for thread-safe inference
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(324)stream_inference()
+-> if isinstance(self.vid_writer[-1], cv2.VideoWriter):
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(328)stream_inference()
+-> if self.args.verbose and self.seen:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(329)stream_inference()
+-> t = tuple(x.t / self.seen * 1e3 for x in profilers)  # speeds per image
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(330)stream_inference()
+-> LOGGER.info(
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(331)stream_inference()
+-> f"Speed: %.1fms preprocess, %.1fms inference, %.1fms postprocess per image at shape "
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(332)stream_inference()
+-> f"{(1, 3, *im.shape[2:])}" % t
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(331)stream_inference()
+-> f"Speed: %.1fms preprocess, %.1fms inference, %.1fms postprocess per image at shape "
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(332)stream_inference()
+-> f"{(1, 3, *im.shape[2:])}" % t
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(331)stream_inference()
+-> f"Speed: %.1fms preprocess, %.1fms inference, %.1fms postprocess per image at shape "
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(330)stream_inference()
+-> LOGGER.info(
+(Pdb) n
+Speed: 59246.5ms preprocess, 117198.3ms inference, 17042.4ms postprocess per image at shape (1, 3, 512, 640)
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(334)stream_inference()
+-> if self.args.save or self.args.save_txt or self.args.save_crop:
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(335)stream_inference()
+-> nl = len(list(self.save_dir.glob("labels/*.txt")))  # number of labels
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(336)stream_inference()
+-> s = f"\n{nl} label{'s' * (nl > 1)} saved to {self.save_dir / 'labels'}" if self.args.save_txt else ""
+(Pdb) n
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(337)stream_inference()
+-> LOGGER.info(f"Results saved to {colorstr('bold', self.save_dir)}{s}")
+(Pdb) n
+Results saved to runs\track\exp18
+1 label saved to runs\track\exp18\labels
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(339)stream_inference()
+-> self.run_callbacks("on_predict_end")
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(400)run_callbacks()
+-> def run_callbacks(self, event: str):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(402)run_callbacks()
+-> for callback in self.callbacks.get(event, []):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(403)run_callbacks()
+-> callback(self)
+(Pdb) s
+--Call--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\callbacks\base.py(129)on_predict_end()
+-> def on_predict_end(predictor):
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\callbacks\base.py(131)on_predict_end()
+-> pass
+(Pdb) s
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\utils\callbacks\base.py(131)on_predict_end()->None
+-> pass
+(Pdb) s
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(402)run_callbacks()
+-> for callback in self.callbacks.get(event, []):
+(Pdb) s
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(402)run_callbacks()->None
+-> for callback in self.callbacks.get(event, []):
+(Pdb) s
+--Return--
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\ultralytics\engine\predictor.py(339)stream_inference()->None
+-> self.run_callbacks("on_predict_end")
+(Pdb) s
+StopIteration
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\utils\_contextlib.py(56)generator_context()
+-> response = gen.send(request)
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\utils\_contextlib.py(55)generator_context()
+-> with ctx_factory():
+(Pdb) s
+--Call--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(266)__exit__()
+-> def __exit__(self, exc_type: Any, exc_value: Any, traceback: Any) -> None:
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(267)__exit__()
+-> self._inference_mode_context.__exit__(exc_type, exc_value, traceback)
+(Pdb) s
+--Return--
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\autograd\grad_mode.py(267)__exit__()->None
+-> self._inference_mode_context.__exit__(exc_type, exc_value, traceback)
+(Pdb) s
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\utils\_contextlib.py(60)generator_context()
+-> except StopIteration as e:
+(Pdb) n
+> c:\users\peter\anaconda3\envs\py3.6.3\lib\site-packages\torch\utils\_contextlib.py(64)generator_context()
+-> return e.value
+(Pdb) n
+The program finished and will be restarted
+> e:\yolov8改进策略\全包\面具\ultralytics-20240222\ultralytics-main\track.py(1)<module>()
+-> import warnings
+(Pdb) ^A
