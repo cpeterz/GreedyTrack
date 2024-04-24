@@ -8,7 +8,7 @@
 
 ## 整体结构
 
-![](images\框架.png)
+<img src="images\框架.png" style="zoom:60%;" />
 
 ## 追踪流程：
 
