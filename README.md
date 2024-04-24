@@ -8,11 +8,11 @@
 
 ## 整体结构
 
-![](C:\Users\peter\Desktop\新建文件夹\GreedyTrack\images\框架.png)
+![](images\框架.png)
 
 ## 追踪流程：
 
-<img src="C:\Users\peter\Desktop\新建文件夹\GreedyTrack\images\算法.png" style="zoom:60%;" />
+<img src="images\算法.png" style="zoom:60%;" />
 
 ## 使用
 
